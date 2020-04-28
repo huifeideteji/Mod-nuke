@@ -1,0 +1,5 @@
+type:OreBlock
+itemDrop:铀
+oreDefault:true
+oreScale:23
+oreThreshold:0.882

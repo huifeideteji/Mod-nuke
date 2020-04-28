@@ -1,0 +1,10 @@
+type: material
+name: 铀
+description: 一种可用于使用，养生的放射性元素（大雾），善于利用可以促进世界核平。
+radioactivity:1//放射性
+explosiveness:0.2//易爆性
+Flammability:1//易燃性
+hardness: 2
+cost: 2
+solid:true
+color: DCDCDC

@@ -1,0 +1,7 @@
+type: material
+name:浓缩铀
+description:经提炼后的铀，具有放射性，可用于制造和平使者
+radioactivity:1//放射性
+explosiveness:1//易爆性
+Flammability:1//易燃性
+color: DCDCDC

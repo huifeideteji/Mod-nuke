@@ -1,0 +1,28 @@
+type:GenericCrafter
+name:铀离心机
+description:将铀转变为浓缩铀
+        //上为基础信息
+hasPower:true//是否需要能量
+hasItems:true//是否需要物品输入
+        //上为判断是否需要输入，输入内容13行开始
+health:500//血量
+size:3//占地 所写为边长 最大9
+itemCapacity:20//物品容量
+liquidCapacity:20//液体容量
+        //上为基础，下为物品消耗
+consumes:{
+    power:3
+    items:{
+      items:[
+        铀/10
+        coal/10
+      ]//消耗矿物
+    }//生产消耗物品
+}//所有消耗
+outputItem:浓缩铀/1
+requirements:[
+        copper/50
+        lead/50
+]
+research:coal-centrifuge
+//科技树上一层的东西
